@@ -1,0 +1,6 @@
+name = wysiyg enable editor i18n
+description = enable wysiwyg editor interface in translate i18n  
+core = 7.x 
+version = "7.x-1.0"
+
+files[] = re_tr.module
