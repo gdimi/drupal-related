@@ -1,0 +1,64 @@
+#block-views-calendar-calendar-block {
+    margin-top: 30px;
+}
+
+.view-calendar .date-heading a {
+  font-size: 1em;
+}
+
+.view-calendar .date-nav-wrapper .date-prev {
+    background: none;
+}
+
+ .view-calendar .date-nav-wrapper .date-next {
+    background: none;
+}
+
+.calendar-calendar tr {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+ .calendar-calendar tbody tr {
+    clear:left;
+}
+
+.calendar-calendar th.days {
+  background-color: rgba(0, 0, 0, 0) !important;
+  width: 12%;
+}
+
+.calendar-calendar td.past.has-no-events {
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+	width: 12.4%;
+}
+
+.calendar-calendar td.has-events {
+    background-color: #0e4494;
+    border: 1px solid #ccc;
+	width: 12.4%;
+}
+
+.calendar-calendar td.has-no-events {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #111;
+	width: 12.4%;
+}
+
+.calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
+    background-color:#85A5BC !important;
+}
+
+.calendar-calendar table.mini td.empty {
+    background: none repeat scroll 0 0 transparent;
+    border-color: #111;
+	width:13.1%;
+}
+
+.calendar-calendar tr {
+    clear:left;
+}
+
+.calendar-calendar tr td {
+    text-align: center;
+}
